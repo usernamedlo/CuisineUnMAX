@@ -21,14 +21,14 @@ import { faKitchenSet, faBars } from "@fortawesome/free-solid-svg-icons";
 //     }
 // }
 
-function Navbar() {
+function NavbarComponent() {
   return (
     <header className="bg-[#3b3e6d] z-50 fixed top-0 w-full shadow">
       <nav
         className="bg-[#3b3e6d] max-w-5xl mx-auto font-poppins p-6
             flex items-center justify-center"
       >
-        <a href="top" className="flex" aria-label="Page d'accueil">
+        <a href="1" className="flex" aria-label="Page d'accueil">
           <FontAwesomeIcon
             icon={faKitchenSet}
             className="fa-2xl md:w-12 md:inline text-white"
@@ -47,4 +47,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarComponent;

@@ -4,24 +4,23 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 function SearchResultCard({ recipe }) {
   return (
-    <div className="bg-white shadow-lg rounded-lg h-4/12">
+    <div className="bg-white rounded-lg overflow-hidden shadow-md">
       <img
         src={recipe.image}
         alt={recipe.label}
-        className="rounded-t-lg w-72"
+        className="rounded-t-lg h-40 w-full object-cover"
       ></img>
-      <div className="p-4">
-        <div className="flex mb-5">
-          <h3 className="text-2xl text-gray-700">{recipe.label}</h3>
-          {/* <p className="mt-1 ml-auto text-lg font-medium text-gray-900">
-            {Math.round(recipe.calories)} kcal
-          </p> */}
-        </div>
-        <a
+
+      <div className="py-4 px-6">
+      <h3 className="text-xl font-bold text-gray-800">{recipe.label}</h3>
+      </div>
+      
+      <div className="bg-gray-100 flex items-center justify-center">
+      <a
           href={recipe.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center px-5 py-1 w-full shadow-sm font-medium rounded-md bg-red-600 card-link"
+          className="inline-flex items-center justify-center px-5 py-1 shadow-sm font-medium rounded-md bg-red-600 card-link mb-2 text-white hover:bg-red-700"
         >
           <span className="text-gray-100 text-lg text-center">
             Voir la recette
@@ -34,6 +33,10 @@ function SearchResultCard({ recipe }) {
         </a>
       </div>
     </div>
+
+
+
+
   );
 }
 
