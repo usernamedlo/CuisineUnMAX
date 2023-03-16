@@ -31,14 +31,14 @@ function Navbar() {
         <a href="top" className="flex" aria-label="Page d'accueil">
           <FontAwesomeIcon
             icon={faKitchenSet}
-            className="hidden fa-2xl md:w-7 md:inline md:mr-4 text-white"
+            className="fa-2xl md:w-12 md:inline text-white"
             alt=""
           />
-          <div className="text-[#BDC3C7] md:mt-0.5">
-            <span aria-hidden="true" className="text-lg lg:text-xl"></span>
+          <div className="text-[#BDC3C7] md:mt-0.5 text-xl">
+            <span aria-hidden="true" className="text-4xl lg:text-xl"></span>
             Cuisine un&nbsp;
             <strong>
-              max<span className="text-[#F5E6CA]">.</span>
+              MAX<span className="text-[#F5E6CA]">.</span>
             </strong>
           </div>
         </a>
