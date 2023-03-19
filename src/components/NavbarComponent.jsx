@@ -2,25 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKitchenSet, faBars } from "@fortawesome/free-solid-svg-icons";
 
-// const toggleMenuBtn = document.querySelector('#menu-btn');
-// const toggleMenuImg = document.querySelector('#menu-btn img');
-// const toggleMenu = document.querySelector('#toggle-menu');
-// const menuLinks = document.querySelector('#main-nav ul a');
-
-// toggleMenuBtn.addEventListener('click', toggleNav);
-
-// function toggleNav(){
-//     toggleMenu.classList.toggle('-translate-y-full');
-
-//     if(toggleMenu.classList.contains('-translate-y-full')){
-//         toggleMenuImg.setAttribute('src', {faXmark});
-//         toggleMenuBtn.setAttribute('aria-expanded', 'false');
-//     } else {
-//         toggleMenuImg.setAttribute('src', {faBars});
-//         toggleMenuBtn.setAttribute('aria-expanded', 'true');
-//     }
-// }
-
 function NavbarComponent() {
   return (
     <header className="bg-[#3b3e6d] z-50 fixed top-0 w-full shadow">
