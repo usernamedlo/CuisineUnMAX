@@ -4,33 +4,27 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 function SearchResultCard({ recipe }) {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-md">
-      <img
-        src={recipe.imageUrl}
-        alt={recipe.title}
-        className="rounded-t-lg h-40 w-full object-cover"
-      ></img>
-
-      <div className="py-4 px-6">
-        <h3 className="text-xl font-bold text-gray-800">{recipe.title}</h3>
-      </div>
-
-      <div className="bg-gray-100 flex justify-center">
-        <a
-          href={recipe.sourceUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center px-5 py-1 shadow-sm font-medium rounded-md bg-red-600 card-link m-2 text-white hover:bg-red-700"
+    <div className="h-96 rounded-lg overflow-hidden bg-transparent cursor-pointer group perspective">
+      <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+        <div
+          className="absolute backface-hidden  w-full h-full bg-gray-100  bg-center bg-cover bg-no-repeat "
+          style={{
+            backgroundImage: `url(${recipe.imageUrl})`,
+          }}
         >
-          <span className="text-gray-100 text-lg text-center">
-            Voir la recette
-          </span>
-          <FontAwesomeIcon
-            icon={faUtensils}
-            className="ml-4 h-6 w-6 text-white"
-            alt="Logo"
-          />
-        </a>
+          <p className="absolute top-6 left-6 text-white">fesfe</p>
+          <div className="absolute bottom-0 w-full h-1/3 bg-black">
+            <div className="h-full flex flex-col justify-end  ">
+              <div className="py-4 px-6">
+                <h3 className="text-xl font-bold text-white text-center">
+                  {recipe.title}
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden"></div>
       </div>
     </div>
   );

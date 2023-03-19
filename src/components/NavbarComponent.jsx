@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faKitchenSet, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faKitchenSet } from "@fortawesome/free-solid-svg-icons";
 
 function NavbarComponent() {
   return (
