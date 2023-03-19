@@ -9,7 +9,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function FootComponent() {
   return (
-    <footer className="bg-gray-800 text-gray-300 pt-12">
+    <footer className="bg-gray-800 text-gray-300 pt-12 fixed bottom-0 left-0 right-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div>

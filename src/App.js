@@ -8,7 +8,7 @@ function App() {
     <div>
       <NavbarComponent />
       <SearchBarComponent />
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </div>
   );
 }
