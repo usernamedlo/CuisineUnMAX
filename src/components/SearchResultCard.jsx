@@ -4,7 +4,7 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 function SearchResultCard({ recipe }) {
   return (
-    <div className="h-96 rounded-lg overflow-hidden bg-transparent cursor-pointer group perspective">
+    <div className="h-96 rounded-lg bg-transparent cursor-pointer group perspective">
       <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
         <div
           className="absolute backface-hidden  w-full h-full bg-gray-100  bg-center bg-cover bg-no-repeat "

@@ -6,5 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: url(./resources/bg.jpg) no-repeat center center fixed;
+    background: url(./resources/ella-olsson-rD3YrnhTmf0-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    height: 100vh;
 }
