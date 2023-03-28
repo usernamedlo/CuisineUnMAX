@@ -44,13 +44,12 @@ function SearchBarComponent() {
 
   return (
     <div>
-      <div className="mt-28 space-x-1 flex flex-col items-center justify-center">
-        <h1 className="text-3xl mb-2 font-bold text-gray-800">Recherchez une recette !</h1>
+      <div className="mt-5 space-x-1 flex flex-col items-center justify-center">
         <form className="h-12">
           <input
             type="text"
             className="block w-80 px-6 py-2 text-purple-700 bg-white border rounded-full focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
-            placeholder="Search..."
+            placeholder="Recherchez une recette..."
             onChange={handleInputChange}
           />
         </form>

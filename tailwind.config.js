@@ -25,6 +25,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+        'abril': ['Abril Fatface', 'cursive'],
       },
     },
   },

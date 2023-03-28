@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* https://fonts.google.com/specimen/Playfair+Display?preview.text=Cuisine%20un%20MAX&preview.text_type=custom */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: url(./resources/ella-olsson-rD3YrnhTmf0-unsplash.jpg) no-repeat center center fixed;
-    background-size: cover;
-    backdrop-filter: blur(4px);
-    height: 100vh;
+  background: url(./resources/ella-olsson-rD3YrnhTmf0-unsplash.png) no-repeat
+    center center fixed;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  /* background-position: -500px -175px; */
 }

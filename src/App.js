@@ -1,12 +1,12 @@
 import "./App.css";
-import NavbarComponent from "./components/NavbarComponent";
+import HeaderComponent from "./components/HeaderComponent";
 import SearchBarComponent from "./components/SearchBarComponent";
 
 function App() {
   return (
     <div>
-      <NavbarComponent />
-      {/* <SearchBarComponent /> */}
+      <HeaderComponent />
+      <SearchBarComponent />
     </div>
   );
 }
