@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 function SearchResultCard({ recipe }) {
   return (
@@ -13,7 +11,7 @@ function SearchResultCard({ recipe }) {
           }}
         >
           <p className="absolute top-6 left-6 text-white">fesfe</p>
-          <div className="absolute bottom-0 w-full h-1/3 bg-black">
+          <div className="absolute bottom-0 w-full h-1/3 bg-gray-500">
             <div className="h-full flex flex-col justify-end  ">
               <div className="py-4 px-6">
                 <h3 className="text-xl font-bold text-white text-center">
@@ -24,7 +22,9 @@ function SearchResultCard({ recipe }) {
           </div>
         </div>
 
-        <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden"></div>
+        <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden">
+          dqzdz
+        </div>
       </div>
     </div>
   );
