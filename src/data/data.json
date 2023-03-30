@@ -1,0 +1,234 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "img": "poulet.png",
+            "nom": "Poulet frit au riz",
+            "temps": "45 minutes",
+            "portion": "4 personnes",
+            "ingredients": [
+                "4 cuisses de poulet",
+                "2 tasses de riz",
+                "1 oignon",
+                "2 gousses d'ail",
+                "2 cuillères à soupe d'huile",
+                "2 cuillères à soupe de farine",
+                "1 cuillère à café de paprika",
+                "sel et poivre"
+            ],
+            "recette": "1. Faire chauffer l'huile dans une poêle et y faire revenir l'oignon et l'ail hachés.\n2. Ajouter les cuisses de poulet et faire cuire jusqu'à ce qu'elles soient dorées.\n3. Ajouter la farine, le paprika, le sel et le poivre. Mélanger bien.\n4. Ajouter 2 tasses d'eau et laisser mijoter à feu moyen pendant 20 minutes.\n5. Pendant ce temps, faire cuire le riz.\n6. Servir le poulet et le riz chauds."
+        },
+        {
+            "id": 2,
+            "img": "cookie.png",
+            "nom": "Cookie",
+            "temps": "20 minutes",
+            "portion": "12 cookies",
+            "ingredients": [
+                "1/2 tasse de beurre",
+                "1/2 tasse de sucre",
+                "1/2 tasse de cassonade",
+                "1 oeuf",
+                "1 cuillère à café d'extrait de vanille",
+                "1 tasse de farine",
+                "1/2 cuillère à café de bicarbonate de soude",
+                "1/2 cuillère à café de sel",
+                "1 tasse de pépites de chocolat"
+            ],
+            "recette": "1. Préchauffer le four à 180°C.\n2. Dans un saladier, mélanger le beurre mou, le sucre et la cassonade.\n3. Ajouter l'oeuf et l'extrait de vanille et mélanger.\n4. Dans un autre saladier, mélanger la farine, le bicarbonate de soude et le sel.\n5. Ajouter les ingrédients secs au mélange beurre-sucre et mélanger jusqu'à ce que la pâte soit homogène.\n6. Ajouter les pépites de chocolat et mélanger.\n7. Former des boules de pâte et les placer sur une plaque de cuisson recouverte de papier sulfurisé.\n8. Enfourner pendant 10 à 12 minutes."
+        },
+        {
+            "id": 3,
+            "img": "hamburger.png",
+            "nom": "Hamburger",
+            "temps": "30 minutes",
+            "portion": "2 hamburgers",
+            "ingredients": [
+                "2 pains à hamburger",
+                "2 steaks hachés",
+                "2 tranches de cheddar",
+                "1 tomate",
+                "1/2 oignon rouge",
+                "2 feuilles de salade",
+                "2 cuillères à soupe de sauce barbecue",
+                "sel et poivre"
+            ],
+            "recette": "1. Faire cuire les steaks hachés à feu moyen dans une poêle jusqu'à ce qu'ils soient dorés et cuits à votre goût.\n2. Couper la tomate en tranches et émincer l'oignon rouge.\n3. Faire griller les pains à hamburger.\n4. Monter les hamburgers en plaçant une feuille de salade sur la base du pain, suivie d'un steak haché, d'une tranche de cheddar, de tranches de tomate et d'oignon rouge, et enfin de la sauce barbecue.\n5. Refermer le hamburger avec la deuxième moitié du pain et déguster."
+        },
+        {
+            "id": 4,
+            "img": "pizza1.png",
+            "nom": "Pizza margherita",
+            "temps": "1 heure",
+            "portion": "4 personnes",
+            "ingredients": [
+                "1 pâte à pizza",
+                "1/2 tasse de coulis de tomate",
+                "1 tasse de mozzarella râpée",
+                "2 tomates",
+                "1/2 tasse de feuilles de basilic frais",
+                "huile d'olive",
+                "sel et poivre"
+            ],
+            "recette": "1. Préchauffer le four à 220°C.\n2. Étaler la pâte à pizza sur une plaque de cuisson recouverte de papier sulfurisé.\n3. Étaler le coulis de tomate sur la pâte.\n4. Couper les tomates en rondelles et les disposer sur la pizza.\n5. Ajouter la mozzarella râpée sur la pizza.\n6. Arroser d'huile d'olive et saupoudrer de feuilles de basilic frais.\n7. Saler et poivrer selon votre goût.\n8. Enfourner la pizza pendant 10 à 12 minutes, ou jusqu'à ce que le fromage soit fondu et que la croûte soit dorée."
+        },
+        {
+            "id": 5,
+            "img": "salade1.png",
+            "nom": "Salade",
+            "temps": "15 minutes",
+            "portion": "4 personnes",
+            "ingredients": [
+                "1 laitue",
+                "2 tomates",
+                "1 concombre",
+                "1 poivron",
+                "1/2 oignon rouge",
+                "1 cuillère à soupe de vinaigre balsamique",
+                "3 cuillères à soupe d'huile d'olive",
+                "sel et poivre"
+            ],
+            "recette": "1. Laver la laitue, les tomates, le concombre et le poivron et les couper en morceaux.\n2. Émincer l'oignon rouge.\n3. Mélanger tous les ingrédients dans un saladier.\n4. Préparer la vinaigrette en mélangeant le vinaigre balsamique, l'huile d'olive, le sel et le poivre.\n5. Verser la vinaigrette sur la salade et mélanger."
+        },
+        {
+            "id": 6,
+            "img": "salade2.png",
+            "nom": "Salade de fruits",
+            "temps": "20 minutes",
+            "portion": "4 personnes",
+            "ingredients": [
+                "2 bananes",
+                "2 pommes",
+                "1 mangue",
+                "1 ananas",
+                "1/2 tasse de jus d'orange",
+                "1/2 tasse de jus de citron",
+                "1 cuillère à soupe de miel"
+            ],
+            "recette": "1. Couper les fruits en morceaux.\n2. Dans un saladier, mélanger les fruits avec le jus d'orange et le jus de citron.\n3. Ajouter une cuillère à soupe de miel et mélanger.\n4. Laisser reposer la salade de fruits au réfrigérateur pendant au moins 1 heure avant de servir."
+        },
+        {
+            "id": 7,
+            "img": "saumon1.png",
+            "nom": "Saumon grillé",
+            "temps": "30 minutes",
+            "portion": "4 personnes",
+            "ingredients": [
+                "4 filets de saumon",
+                "2 cuillères à soupe d'huile d'olive",
+                "1 citron",
+                "2 gousses d'ail",
+                "sel et poivre"
+            ],
+            "recette": "1. Préchauffer le grill du four.\n2. Dans un petit bol, mélanger l'huile d'olive, le jus de citron, l'ail émincé, le sel et le poivre.\n3. Badigeonner les filets de saumon avec la marinade.\n4. Placer les filets de saumon sur la grille du four et faire griller pendant 10 à 12 minutes, ou jusqu'à ce que le saumon soit cuit à votre goût."
+        },
+        {
+            "id": 8,
+            "img": "saumon2.png",
+            "nom": "Saumon poché",
+            "temps": "30 minutes",
+            "portion": "4 personnes",
+            "ingredients": [
+                "4 filets de saumon",
+                "4 tasses d'eau",
+                "1/2 tasse de vin blanc",
+                "1 oignon",
+                "2 gousses d'ail",
+                "1 branche de thym",
+                "1 feuille de laurier",
+                "sel et poivre"
+            ],
+            "recette": "1. Dans une grande poêle, porter à ébullition l'eau, le vin blanc, l'oignon coupé en quartiers, l'ail émincé, le thym et la feuille de laurier.\n2. Saler et poivrer les filets de saumon et les placer dans la poêle.\n3. Réduire le feu à moyen et laisser pocher le saumon pendant 10 à 12 minutes, ou jusqu'à ce qu'il soit cuit à votre goût.\n4. Retirer les filets de saumon de la poêle et servir chaud."
+        },
+        {
+            "id": 9,
+            "img": "sushi1.png",
+            "nom": "Sushi au saumon",
+            "temps": "1 heure",
+            "portion": "4 personnes",
+            "ingredients": [
+                "2 tasses de riz à sushi",
+                "2 tasses d'eau",
+                "1/4 tasse de vinaigre de riz",
+                "2 cuillères à soupe de sucre",
+                "1 cuillère à café de sel",
+                "4 feuilles d'algues nori",
+                "4 filets de saumon",
+                "wasabi",
+                "sauce soja"
+            ],
+            "recette": "1. Rincer le riz à sushi jusqu'à ce que l'eau soit claire.\n2.2. Dans une casserole, mélanger le riz avec 2 tasses d'eau et porter à ébullition à feu vif.\n2. Dans une casserole, mélanger le riz avec 2 tasses d'eau et porter à ébullition à feu vif.\n3. Réduire le feu à moyen-doux, couvrir et laisser mijoter pendant 20 minutes ou jusqu'à ce que tout l'eau ait été absorbée.\n4. Dans un petit bol, mélanger le vinaigre de riz, le sucre et le sel jusqu'à ce que le sucre et le sel soient dissous.\n5. Ajouter le mélange de vinaigre au riz et mélanger jusqu'à ce que le riz soit bien enrobé.\n6. Laisser refroidir le riz à température ambiante.\n7. Couper les filets de saumon en lanières.\n8. Placer une feuille d'algue nori sur une natte de bambou.\n9. Étaler une fine couche de riz sur la feuille d'algue nori.\n10. Ajouter les lanières de saumon sur le riz.\n11. Rouler la natte de bambou en serrant bien pour former un rouleau de sushi.\n12. Répéter les étapes 8 à 11 pour faire les autres rouleaux.\n13. Couper chaque rouleau en tranches et servir avec du wasabi et de la sauce soja."
+        },
+        {
+            "id": 10,
+            "img": "sushi2.png",
+            "nom": "Sushi aux crevettes",
+            "temps": "1 heure",
+            "portion": "4 personnes",
+            "ingredients": [
+                "2 tasses de riz à sushi",
+                "2 tasses d'eau",
+                "1/4 tasse de vinaigre de riz",
+                "2 cuillères à soupe de sucre",
+                "1 cuillère à café de sel",
+                "4 feuilles d'algues nori",
+                "16 crevettes cuites",
+                "wasabi",
+                "sauce soja"
+            ],
+            "recette": "1. Rincer le riz à sushi jusqu'à ce que l'eau soit claire.\n2. Dans une casserole, mélanger le riz avec 2 tasses d'eau et porter à ébullition à feu vif.\n3. Réduire le feu à moyen-doux, couvrir et laisser mijoter pendant 20 minutes ou jusqu'à ce que tout l'eau ait été absorbée.\n4. Dans un petit bol, mélanger le vinaigre de riz, le sucre et le sel jusqu'à ce que le sucre et le sel soient dissous.\n5. Ajouter le mélange de vinaigre au riz et mélanger jusqu'à ce que le riz soit bien enrobé.\n6. Laisser refroidir le riz à température ambiante.\n7. Décortiquer les crevettes en laissant la queue.\n8. Placer une feuille d'algue nori sur une natte de bambou.\n9. Étaler une fine couche de riz sur la feuille d'algue nori.\n10. Ajouter les crevettes sur le riz.\n11. Rouler la natte de bambou en serrant bien pour former un rouleau de sushi.\n12. Répéter les étapes 8 à 11 pour faire les autres rouleaux.\n13. Couper chaque rouleau en tranches et servir avec du wasabi et de la sauce soja."
+        },
+        {
+            "id": 11,
+            "img": "pizza2.png",
+            "nom": "Pizza végétarienne",
+            "temps": "1 heure",
+            "portion": "4 personnes",
+            "ingredients": [
+                "1 pâte à pizza",
+                "1/2 tasse de coulis de tomate",
+                "1 tasse de mozzarella râpée",
+                "1/2 poivron vert",
+                "1/2 poivron rouge",
+                "1/2 oignon rouge",
+                "1/2 tasse de champignons tranchés",
+                "1/2 tasse d'olives noires tranchées",
+                "2 cuillères à soupe d'huile d'olive",
+                "sel et poivre"
+            ],
+            "recette": "1. Préchauffer le four à 220°C.\n2. Étaler la pâte à pizza sur une plaque de cuisson recouverte de papier sulfurisé.\n3. Étaler le coulis de tomate sur la pâte.\n4. Ajouter la mozzarella râpée sur la pizza.\n5. Couper les poivrons en lamelles et l'oignon en rondelles. Ajouter les poivrons, l'oignon, les champignons et les olives sur la pizza.\n6. Arroser d'huile d'olive et saler et poivrer selon votre goût.\n7. Enfourner la pizza pendant 10 à 12 minutes, ou jusqu'à ce que le fromage soit fondu et que la croûte soit dorée."
+        },
+        {
+            "id": 12,
+            "img": "pizza3.png",
+            "nom": "Pizza Pepperoni",
+            "temps": "1 heure",
+            "portion": "4 personnes",
+            "ingredients": [
+                "1 pâte à pizza",
+                "1/2 tasse de coulis de tomate",
+                "1 tasse de mozzarella râpée",
+                "1/2 tasse de pepperoni tranché",
+                "2 cuillères à soupe d'huile d'olive",
+                "sel et poivre"
+            ],
+            "recette": "1. Préchauffer le four à 220°C.\n2. Étaler la pâte à pizza sur une plaque de cuisson recouverte de papier sulfurisé.\n3. Étaler le coulis de tomate sur la pâte.\n4. Ajouter la mozzarella râpée sur la pizza.\n5. Répartir les tranches de pepperoni sur la pizza.\n6. Arroser d'huile d'olive et saler et poivrer selon votre goût.\n7. Enfourner la pizza pendant 10 à 12 minutes, ou jusqu'à ce que le fromage soit fondu et que la croûte soit dorée."
+        },
+        {
+            "id": 13,
+            "img": "pizza4.png",
+            "nom": "Pizza rond de tomate",
+            "temps": "1 heure",
+            "portion": "4 personnes",
+            "ingredients": [
+                "1 pâte à pizza",
+                "1/2 tasse de coulis de tomate",
+                "1 tasse de mozzarella râpée",
+                "1 tomate coupée en rondelles",
+                "2 cuillères à soupe d'huile d'olive",
+                "sel et poivre"
+            ],
+            "recette": "1. Préchauffer le four à 220°C.\n2. Étaler la pâte à pizza sur une plaque de cuisson recouverte de papier sulfurisé.\n3. Étaler le coulis de tomate sur la pâte.\n4. Ajouter la mozzarella râpée sur la pizza.\n5. Répartir les rondelles de tomate sur la pizza.\n6. Arroser d'huile d'olive et saler et poivrer selon votre goût.\n7. Enfourner la pizza pendant 10 à 12 minutes, ou jusqu'à ce que le fromage soit fondu et que la croûte soit dorée."
+        }
+    ]
+}

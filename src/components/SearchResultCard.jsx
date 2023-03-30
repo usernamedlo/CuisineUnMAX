@@ -2,28 +2,31 @@ import React from "react";
 
 function SearchResultCard({ recipe }) {
   return (
-    <div className="h-96 rounded-lg bg-transparent cursor-pointer group perspective">
-      <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
-        <div
-          className="absolute backface-hidden  w-full h-full bg-gray-100  bg-center bg-cover bg-no-repeat "
-          style={{
-            backgroundImage: `url(${recipe.imageUrl})`,
-          }}
-        >
-          <p className="absolute top-6 left-6 text-white">fesfe</p>
-          <div className="absolute bottom-0 w-full h-1/3 bg-gray-500">
-            <div className="h-full flex flex-col justify-end  ">
-              <div className="py-4 px-6">
-                <h3 className="text-xl font-bold text-white text-center">
-                  {recipe.title}
-                </h3>
-              </div>
-            </div>
+    <div className="h-96 flex justify-center flex-wrap item-center">
+      <img
+        src={require(`../data/${recipe.img}`)}
+        alt="img"
+        className="w-64 h-64 absolute z-10"
+      />
+      <div className="h-48 w-full rounded-t-lg mt-16 bg-white opacity-40"></div>
+      <div className="bg-white rounded-b-lg h-40 w-full">
+        <span className="text-3xl font-medium bg-black text-center">
+          <h3 className="mt-8 mb-4">{recipe.nom}</h3>
+        </span>
+        <span className="flex justify-center">
+          <hr className="w-64 border-t-1 border-gray-300" />
+        </span>
+        <div className="flex-1 w-full flex flex-wrap">
+          <div className="text-lg font-medium text-gray-700 w-1/2 p-1">Temps</div>
+          <div className="text-lg text-right font-medium text-gray-700 w-1/2 p-1">
+            Portion
           </div>
-        </div>
-
-        <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden">
-          dqzdz
+          <div className="text-base font-medium text-gray-500 w-1/2 p-1">
+            {recipe.temps}
+          </div>
+          <div className="text-base text-right font-medium text-gray-500 w-1/2 p-1">
+            {recipe.portion}
+          </div>
         </div>
       </div>
     </div>

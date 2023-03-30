@@ -2,33 +2,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.flip-card {
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  transform-style: preserve-3d;
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  z-index: 1;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-  z-index: 0;
+  /* box-shadow: 0 0 0 3px red inset; */
 }
