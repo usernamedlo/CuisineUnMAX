@@ -1,6 +1,6 @@
 import React from "react";
 
-function SearchResultCard({ recipe }) {
+function SearchResultCardComponent({ recipe }) {
   return (
     <div className="h-96 flex justify-center flex-wrap item-center">
       <img
@@ -33,4 +33,4 @@ function SearchResultCard({ recipe }) {
   );
 }
 
-export default SearchResultCard;
+export default SearchResultCardComponent;

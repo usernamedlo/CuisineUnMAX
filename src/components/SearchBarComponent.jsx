@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import SearchResultsList from "./SearchResultsList";
+import SearchResultsListComponent from "./SearchResultsListComponent";
 import data from "../data/data.json";
 
-function SearchBarComponent() {
+function SearchBarComponentComponent() {
   const [searchTerm, setSearchTerm] = useState("");
   const [recipes, setRecipes] = useState([]);
   const [searchTermLength, setSearchTermLength] = useState(0);
@@ -34,7 +34,7 @@ function SearchBarComponent() {
         </form>
       </div>
       {searchTermLength >= 3 && filteredRecipes.length > 0 ? (
-        <SearchResultsList results={filteredRecipes} />
+        <SearchResultsListComponent results={filteredRecipes} />
       ) : (
         ""
       )}
@@ -42,4 +42,4 @@ function SearchBarComponent() {
   );
 }
 
-export default SearchBarComponent;
+export default SearchBarComponentComponent;

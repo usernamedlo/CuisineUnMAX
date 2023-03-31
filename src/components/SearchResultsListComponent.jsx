@@ -1,13 +1,13 @@
 import React from "react";
-import SearchResultCard from "./SearchResultCard";
+import SearchResultCardComponent from "./SearchResultCardComponent";
 
-function SearchResultsList(props) {
+function SearchResultsListComponent(props) {
   const { results } = props;
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8 lg:max-w-5xl grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-3">
       {results.map((result) => (
-        <SearchResultCard
+        <SearchResultCardComponent
           key={result.id}
           recipe={{
             img: result.img,
@@ -25,4 +25,4 @@ function SearchResultsList(props) {
   );
 }
 
-export default SearchResultsList;
+export default SearchResultsListComponent;

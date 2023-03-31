@@ -3,7 +3,6 @@ import React from "react";
 function HeaderComponent() {
   return (
     <div className="mt-28 flex justify-center items-center flex-col">
-      {/* <img src={require('../resources/logo.png')} alt="logo" className="w-52 h-52" /> */}
       <h1 className="text-5xl lg:text-6xl 2xl:text-7xl text-center font-abril text-black ">
         Des Recettes Simples et Délicieuses
       </h1>
