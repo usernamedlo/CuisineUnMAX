@@ -17,7 +17,8 @@ function SearchResultsListComponent(props) {
             ingredients: result.ingredients.map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
             )),
-            recette: result.recette
+            recette: result.recette,
+            description: result.description
           }}
         />
       ))}
